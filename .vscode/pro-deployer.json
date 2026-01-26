@@ -1,0 +1,42 @@
+{
+	"enableStatusBarItem": true,
+	"enableQuickPick": true,
+	"uploadOnSave": true,
+	"autoDelete": true,
+	"checkGitignore": false,
+	"activeTargets": [
+		"My SFTP"
+	],
+	"concurrency": 5,
+	"ignore": [
+		".git/**/*",
+		".vscode/**/*"
+	],
+	"include": [],
+	"targets": [
+		{
+			"name": "My SFTP",
+			"type": "sftp",
+			"host": "ebarnas.mccgdm.net",
+			"port": 22,
+			"user": "ebarnas",
+			"password": "IkaB2015",
+			"dir": "/public_html",
+			"baseDir": "/",
+			"privateKey": null,
+			"passphrase": null
+		},
+		{
+			"name": "My FTP",
+			"type": "ftp",
+			"host": "ebarnas.mccgdm.net",
+			"port": 21,
+			"user": "ebarnas",
+			"password": "IkaB2015",
+			"dir": "/public_html",
+			"baseDir": "/",
+			"transferDataType": "binary",
+			"secure": false
+		}
+	]
+}
