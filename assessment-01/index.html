@@ -4,8 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assessment 01</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/scripts.js"></script>
+
+    <script>
+        function hobbyFunction2(){
+            document.getElementById("hobby-info").innerHTML="Counter-Strike is a 5v5 competitive game. One side are Terrorists trying to planet a bomb on two sites, while the other is are Counter-Terrorists, trying to stop them."
+        }
+    </script>
 </head>
 <body>
-    
+    <header>
+        <h1>My Little Website</h1>
+        <p>
+            This is where Im going to showcase some usage of JavaScript, while also sharing 
+            some information about myself.
+        </p>
+    </header>
+
+    <main class="container">
+        <h1>Hobby Info</h1>
+        <p id="hobby-info">
+            
+        </p>
+        <script>
+            document.getElementById("hobby-info").innerHTML="Bannerlord is a fun, but it takes awhile for it to get going. You start with nothing and work your way up in the Medieval World. Starting with leading a small band of troops, until you lead armies of men, and lead your kingdom."
+        </script>
+        <div class="buttons-middle">
+            <button type="button" onclick="hobbyFunction2()">Counter-Strike Info</button>
+            <button type="button" onclick="hobbyFunction3()">My Cat Info</button>
+        </div>
+        <div class="buttons-middle">
+            <button type="button" onclick="getElementById('hobby-info').style.color = 'red';">Change Font Color!</button>
+        </div>
+
+        <div>
+            <h2>Changing Images</h2>
+            <img src="images/bannerlord.jpg" alt="Pictures of My Hobbies" id="hobby">
+        </div>
+        <div class="buttons-middle">
+            <button type="button" onclick="changeImage1()">Bannerlord</button>
+            <button type="button" onclick="changeImage2()">Counterstrike</button>
+            <button type="button" onclick="changeImage3()">My Cat</button>
+        </div>
+        <div class="buttons-middle">
+            <button type="button" onclick="getElementById('hobby').style.width = '50%';">Change Width Size to Large!</button>
+        </div>
+
+        <div class="buttons-middle"> 
+            <button onclick="document.getElementById('hobby').style.display= 'block'">Show</button>
+            <button onclick="document.getElementById('hobby').style.display= 'none'">Hide</button>
+        </div>
+    </main>
+
+
+
+
+    <footer>
+        <p>&copy;2026 Eric Barnas</p>
+    </footer>
 </body>
 </html>
