@@ -1,0 +1,261 @@
+/* --------------------- CSS Reset -------------------- */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul,
+dl {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ---------------------- layout ------------------------- */
+
+body{
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 1.2em;
+    background-color: ivory;
+    color: black;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    min-width: 500px;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+footer,
+main,
+aside,
+article,
+div {
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.left {
+    clear: both;
+    float: left;
+    padding: 20px;
+}
+
+.right {
+    clear: both;
+    float: right;
+    padding: 20px;
+}
+
+.center {
+    clear: both;
+    display: block;
+    margin: 10px auto;
+}
+
+img {
+    box-sizing: border-box;
+    width: 40%;
+    margin: 20px auto;
+}
+
+header {
+    min-height: 80px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+h2 {
+    color: navy;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: navy;
+}
+
+h3 {
+    text-align: center;
+    color: navy;
+    font-weight: bold;
+}
+
+.button {
+    width: 30%;
+    margin: 10px 1%;
+    text-align: center;
+}
+
+button {
+    color: ivory;
+    border: 2px solid navy;
+    background: navy;
+    text-decoration: none;
+}
+
+button:hover {
+    color: navy;
+    background: ivory;
+}
+
+p {
+    padding: 10px;
+}
+
+.box {
+    width: 30%;
+    margin: 10px 1%;
+    border: 1px solid navy;
+    padding: 25px;
+}
+
+.top,
+.bottom {
+    margin: 25px 30px;
+    text-align: center;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Food Menu</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Simple Food Menu</h1>
+    </header>
+    
+    <main class="container">
+        <form>
+            <div class="top">
+                <label for="name">Customer's Name:</label>
+                <input type="text" id="name"><br>
+            </div>
+
+            <div class="box" id="drinks">
+                <h2>Drinks</h2>
+                <label><input type="checkbox" name="drink" id="water">Water</label>
+                <br>
+                <label><input type="checkbox" name="drink" id="coke">Coke</label>
+                <br>
+                <label><input type="checkbox" name="drink" id="pepsi">Pepsi</label>
+                <br>
+                <label><input type="checkbox" name="drink" id="beer">Beer</label>
+                <br>
+                <label><input type="checkbox" name="drink" id="wine">Wine</label>
+            </div>
+
+            <div class="box" id="sandwich">
+                <h2>Sandwiches</h2>
+                <label><input type="checkbox" name="sandwich" id="grilled">Grilled Cheese</label>
+                <br>
+                <label><input type="checkbox" name="sandwich" id="philly">Philly Cheesesteak</label>
+                <br>
+                <label><input type="checkbox" name="sandwich" id="meatball">Meatball Sub</label>
+                <br>
+                <label><input type="checkbox" name="sandwich" id="club">Club Sandwich</label>
+                <br>
+                <label><input type="checkbox" name="sandwich" id="roast">Roast Beef Sandwich</label>
+            </div>
+
+            <div class="box" id="dessert">
+                <h2>Desserts</h2>
+                <label><input type="checkbox" name="dessert" id="cheesecake">Cheesecake</label>
+                <br>
+                <label><input type="checkbox" name="dessert" id="banana">Banana Cream Pie</label>
+                <br>
+                <label><input type="checkbox" name="dessert" id="fudge">Fudge Brownies</label>
+                <br>
+                <label><input type="checkbox" name="dessert" id="pudding">Chocolate Pudding</label>
+                <br>
+                <label><input type="checkbox" name="dessert" id="donut">Glazed Donut</label>
+            </div>
+
+            <div class="button">
+                <button type="button" onclick="order()">Place Order</button>
+            </div>
+
+            <div class="bottom" id="summary">
+                <h2>Order Summary</h2>
+                <p>No order placed yet.</p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2026 Eric Barnas</p>
+    </footer>
+</body>
+</html>
