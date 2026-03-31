@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Project</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>The Gaming Table</h1>
+    </header>
+    <main class="container">
+        <div>
+            <h3>Enter Game Name</h3>
+            <input type="text" id="gameName">
+            <br>
+            <h3>Enter Game Genre</h3>
+            <input type="text" id="genre">
+            <br>
+            <h3>Enter the Release Date</h3>
+            <input type="text" id="releaseDate">
+            <br>
+            <h3>Enter Your Hours Played</h3>
+            <input type="text" id="hours">
+            <br>
+            <button onclick="addGame()">Add Game</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Game Title</th>
+                    <th>Genre</th>
+                    <th>Release Date</th>
+                    <th>Hours Played</th>
+                </tr>
+            </thead>
+            <tbody id="gameTable">
+            </tbody>
+        </table>
+    </main>
+    <footer>&copy; 2026 Eric Barnas</footer>
+
+    <script src="script/scripts.js"></script>
+</body>
+</html>
